@@ -12,24 +12,31 @@
     <form action="success.html" method="GET">
         <ul>
             <li>
-                <label for="fullname">Full Name</label><br>
-                <input type="text" id="fullname" name="fullname"><br><br>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" required><br><br>
+            </li>
+
+            <li>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
             </li>
 
             <li>
                 <label for="email">Email</label><br>
-                <input type="text" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" required><br><br>
             </li>
 
             <li>
                 <label for="phone">Phone/ Mobile</label><br>
-                <input type="text" id="phone" name="phone"><br><br>
+                <input type="text" id="phone" name="phone" required><br><br>
             </li>
-            <li>
+
+            <li></li>
                 <label for="personalnumber">Personal number</label><br>
-                <input type="text" id="personalnumber" name="personalnumber">
+                <input type="text" id="personalnumber" name="personalnumber" required><br><br>
             </li>
-            <br><button>sign up</button>
+            <button type="reset"> R e s e t</button>
+            <button type="submit">Sign up</button>
         </ul>
     </form>
 </body>
