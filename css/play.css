@@ -1,16 +1,61 @@
-ul {
-    list-style: none;
-    padding-left: 0px;
+body{
+    padding-left: 10px;
 }
 
-label{
-    font-weight: bold;
+ul {
+    list-style: none;
 }
 
 #sbutton{
     width: 150px; 
     height: 30px;
-    background-color: rgb(192, 231, 231);
+    background-color: moccasin;
     color: rgb(219, 18, 62);
     font-size: 1em;
+}
+
+#cbutton{
+    width: 100px; 
+    height: 30px;
+    background-color: moccasin;
+    color: rgb(219, 18, 62);
+    font-size: 0.8em;
+}
+
+.test1{
+    color: blue;
+}
+.test2{
+    color: blueviolet;
+}
+
+.test1 .test2{
+    color: brown;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    width: 130px;
+    float: left;
+}
+
+input, textarea{
+    display: block;
+    width: 300px;
+}
+
+li{
+    display: block;
+    margin-bottom: 20px;
+}
+
+button{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    background-color: moccasin;
+}
+#search{
+    width: 308px;
 }
