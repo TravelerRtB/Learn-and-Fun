@@ -6,22 +6,6 @@ ul {
     list-style: none;
 }
 
-#sbutton{
-    width: 150px; 
-    height: 30px;
-    background-color: moccasin;
-    color: rgb(219, 18, 62);
-    font-size: 1em;
-}
-
-#cbutton{
-    width: 100px; 
-    height: 30px;
-    background-color: moccasin;
-    color: rgb(219, 18, 62);
-    font-size: 0.8em;
-}
-
 label{
     font-weight: bold;
     display: block;
@@ -39,12 +23,31 @@ li{
     margin-bottom: 20px;
 }
 
+#search{
+    width: 308px;
+}
+
+
 button{
     display: block;
     margin-bottom: 20px;
     margin-left: 130px;
     background-color: moccasin;
 }
-#search{
-    width: 308px;
+
+#sbutton{
+    width: 150px; 
+    height: 30px;
+    background-color: moccasin;
+    color: rgb(219, 18, 62);
+    font-size: 1em;
 }
+
+#cbutton{
+    width: 100px; 
+    height: 30px;
+    background-color: moccasin;
+    color: rgb(219, 18, 62);
+    font-size: 0.8em;
+}
+

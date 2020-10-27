@@ -1,18 +1,17 @@
-body{
-    padding-left: 5px;
+label{
+    font-weight: bold;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 120%;
+    color: slateblue;
 }
 
-ul {
-    list-style: none;
+input{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 200px;
 }
 
-.test1{
-    color: blue;
-}
-.test2{
-    color: blueviolet;
-}
-
-.test1.test2{
-    color: brown;
-}
